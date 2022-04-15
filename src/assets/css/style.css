@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 0;
+    font-size: 18px;
+    color: snow;
+    font-family: cursive;
+}
+div{
+    text-align: center;
+}
+body{
+    background-image: url("../Pictures/symbol.jpg") ;
+    background-position: top center;
+    }
+header{
+    text-align: center;
+
+}
+.image {
+    border: ivory solid 2px;
+    border-radius: 10%;
+}
+.name{
+    font-weight: 300;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+}
+.nature {
+
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+}
+/* .quote {
+
+} */
+.description {
+    font-size: 18px;
+    color: snow;
+}
+.timer {
+    width: 50%;
+}
+.timer .title {
+    text-align: right;
+}
+.timer .timer {
+    margin-top: 10px;
+    padding-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.timer .timer__block {
+    width: 102px;
+    height: 120px;
+    background: rgb(14, 19, 18);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.timer .timer__block span {
+    display: block;
+    padding: 3px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700;
+}
+.title {
+    font-size: 36px;
+    font-weight: 400;
+}
