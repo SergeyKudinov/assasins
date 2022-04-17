@@ -10,8 +10,8 @@ div{
     text-align: center;
 }
 body{
-    background-image: url("../Pictures/symbol.jpg") ;
-    background-position: top center;
+    background: url("../Pictures/symbol.jpg") center no-repeat fixed;
+    background-size: 100% 100%;
     }
 header{
     text-align: center;
